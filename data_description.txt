@@ -1,0 +1,53 @@
+Phishing_Legitimate Dataset:
+
+(The columns which shows presence/absence result of particular character, is marked as ***Boolean*** here. Till now didn't check the datatype)
+1. id: id of URL
+2. NumDots: # '.' in URL
+3. SubdomainLevel: #subdomainlevels 
+4. PathLevel: depth of URL 
+5. UrlLength: length of URL 
+6. NumDash: # '-' in full URL 
+7. NumDashInHostname: #'-' in hostname 
+8. AtSymbol: Check if '@' present or not (Boolean)
+9. TildeSymbol: Check if '~' present or not (Boolean)
+10. NumUnderscore: # '_'
+11. NumPercent: # '%'
+12. NumQueryComponents: # query components
+13. NumAmpersand: # '&'
+14. NumHash: # '#'
+15. NumNumericChars: # numeric characters
+16. NoHttps: Check if 'https' present or not (Boolean)
+17. RandomString: Check if Random String present or not (Boolean)
+18. IpAddress: Check if the IP address is used or not in the hostname of the website URL (Boolean)
+19. DomainInSubdomains: Check if TLD (Top Level Domain) or ccTLD (Country Code Top Level Domain) is used as a part of the subdomain in website URL  (Boolean)
+20. DomainInPaths: Check if TLD or ccTLD is used in the link of website URL (Boolean)
+21. HttpsInHostname: Check if HTTPS is disordered in the hostname of website URL (Boolean)
+22. HostnameLength: length of hostname
+23. PathLength: length of path
+24. QueryLength: length of query
+25. DoubleSlashInPath: Check if '//' exists in the link path (Boolean)
+26. NumSensitiveWords: Number of sensitive words (i.e., “secure”, “account”, “webscr”, “login”, “ebayisapi”,“sign in”,  “banking”, “confirm”) in website
+27. EmbeddedBrandName: Brandname exists in the domain or not (Boolean)
+28. PctExtHyperlinks: The percentage of external hyper links in the HTML source code of website
+29. PctExtResourceUrls: Percentage of URL external resource in HTML source codes of website
+30. ExtFavicon: Check if favicon is installed from a hostname different from the URL hostname of website (Boolean)
+31. InsecureForms: Check if actions in the form containing the contend of URL without HTTPS protocol (Boolean)
+32. RelativeFormAction: Check if the action form contains a relative URL (Boolean)
+33. ExtFormAction: Check if the action form contains a external URL (Boolean)
+34. AbnormalFormAction: Check if the action form contains a abnormal URL (Boolean)
+35. PctNullSelfRedirectHyperlinks: Percentage of hyperlinks containing an empty value, an auto-redirecting value, such as “#”, URL of current website, or some abnormal values such as “file://E:/”
+36. FrequentDomainNameMismatch: Check if the most frequent hostname in the HTML source code does not match the URL of website. (Boolean)
+37. FakeLinkInStatusBar: Check if HTML source code contains a JavaScript command on MouseOver to display a fake URL in the status bar (Boolean)
+38. RightClickDisabled: Check if HTML source code contains a JavaScript command to turn off the right click of the mouse (Boolean)
+39. PopUpWindow: Check if HTML source code contains a JavaScript command to start a popup window (Boolean)
+40. SubmitInfoToEmail: Check if HTML source code contains “mailto” in the HTML (Boolean)
+41. IframeOrFrame: Check if iframe or frame is used in HTML source codes (Boolean)
+42. MissingTitle: Check if the title tag is empty in HTML source codes (Boolean)
+43. ImagesOnlyInForm: Check if actions in the form of HTML source code does not contain text, but only images (Boolean)
+44. SubdomainLevelRT: Correlated sub-domain level (-1,0,1) (Boolean)
+45. UrlLengthRT: Correlated length of URL (-1,0,1) (Boolean)
+46. PctExtResourceUrlsRT: Correlated percentage of external URL (-1,0,1) (Boolean)
+47. AbnormalExtFormActionR: Correlated abnormal actions in form (-1,0,1) (Boolean)
+48. ExtMetaScriptLinkRT: Correlated meta script link (-1,0,1) (Boolean)
+49. PctExtNullSelfRedirectHyperlinksRT: Correlated null self-redirect hyperlinks (-1,0,1) (Boolean)
+50. CLASS_LABEL: Gives output that link is malicious or not (Boolean)
