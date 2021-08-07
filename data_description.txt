@@ -1,6 +1,6 @@
 Phishing_Legitimate Dataset:
 
-(The columns which shows presence/absence result of particular character, is marked as ***Boolean*** here. Till now didn't check the datatype)
+(The columns which shows presence/absence result of particular character, is marked as "Boolean" here.)
 1. id: id of URL
 2. NumDots: # '.' in URL
 3. SubdomainLevel: #subdomainlevels 
