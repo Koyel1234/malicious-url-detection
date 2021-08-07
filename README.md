@@ -1,4 +1,4 @@
-This repository contains files for creating a web-application which can detect an URL as malicious or not. The web-application is made using python library pywebio (with flask framework) and hosted on heroku platform.
+This repository contains details of my project done under Summer Mentorship Project,2021 at IITK under the mentorship of Mr. Shubhadeep Das, Analytics Consultant at Ernst & Young. The final PPT showing project details and all files for creating a web-application which can detect an URL as malicious or not. The web-application is made using python library pywebio (with flask framework) and hosted on heroku platform.
 <br>
 <br>
 The app looks like:<br><br>
