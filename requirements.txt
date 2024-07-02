@@ -3,7 +3,7 @@ async-generator==1.10
 attrs==21.2.0
 backcall==0.2.0
 bleach==3.3.1
-catboost==0.26
+catboost==1.2
 certifi==2021.5.30
 cffi==1.14.6
 charset-normalizer==2.0.3
