@@ -15,4 +15,4 @@ The app looks like:<br><br>
 ![Final_output](https://user-images.githubusercontent.com/76770146/128462952-a0d3bdd5-bc02-427c-814e-bd2f35645005.png)
 
 
-<b>Link to the application</b>: https://malicious-url-check-app.herokuapp.com/
+<b>Link to the application</b>: https://malicious-url-detection-app.onrender.com/
